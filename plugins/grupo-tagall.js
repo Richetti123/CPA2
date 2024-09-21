@@ -4,10 +4,10 @@ global.dfail('admin', m, conn)
 throw false
 }
 let pesan = args.join` `
-let oi = `@comunidad_cpa ${pesan}`
-let teks = `*ACTIVENSE PLANTITAS*\n${oi}\n\n*MENCIONES*\n`
+let oi = `@dani_anthony69 ${pesan}`
+let teks = `*💙❤️ACTIVENSE KCHUD@S💙❤️*\n${oi}\n\n*MENCIONES*\n`
 for (let mem of participants) {
-teks += `🐼🐼 @${mem.id.split('@')[0]}\n`}
+teks += `💙❤️ @${mem.id.split('@')[0]}\n`}
 teks += `ComunidadCPA`
 conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )  
 }
