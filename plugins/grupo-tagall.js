@@ -8,7 +8,7 @@ let oi = `@dani_anthony69 ${pesan}`
 let teks = `*💙❤️ACTIVENSE KCHUD@S💙❤️*\n${oi}\n\n*MENCIONES*\n`
 for (let mem of participants) {
 teks += `💙❤️ @${mem.id.split('@')[0]}\n`}
-teks += `ComunidadCPA`
+teks += `@dani_anthony69`
 conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )  
 }
 handler.command = /^(tagall|invocar|invocacion|todos|invocación)$/i
